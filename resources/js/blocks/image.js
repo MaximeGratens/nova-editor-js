@@ -1,7 +1,7 @@
 NovaEditorJS.booting((editorConfig, fieldConfig) => {
     if (fieldConfig.toolSettings.image.activated === true) {
         editorConfig.tools.image = {
-            class: require('@editorjs/image'),
+            class: require('@desti/image'),
             config: {
                 endpoints: {
                     byFile: fieldConfig.uploadImageByFileEndpoint,

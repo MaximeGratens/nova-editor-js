@@ -1,4 +1,14 @@
 /*!
+ * Image tool
+ * 
+ * @version 1.0.0
+ * 
+ * @package https://github.com/editor-js/image
+ * @licence MIT
+ * @author CodeX <https://codex.so>
+ */
+
+/*!
  * vuex v4.0.2
  * (c) 2021 Evan You
  * @license MIT

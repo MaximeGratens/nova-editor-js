@@ -42,8 +42,9 @@ class EditorJsImageUploadController extends Controller
             ]);
         }
 
-        $path = $request->file('image')->store(
+        $path = $request->file('image')->storeAs(
             config('nova-editor-js.toolSettings.image.path'),
+            $request->file('image')->getClientOriginalName(),
             config('nova-editor-js.toolSettings.image.disk')
         );
 
