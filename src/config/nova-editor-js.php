@@ -166,6 +166,10 @@ return [
                         'url' => [
                             'type' => 'string',
                         ],
+                        'alt' => [
+                            'type' => 'string',
+                            'required' => false
+                        ],
                         'thumbnails' => [
                             'type' => 'array',
                             'required' => false,
@@ -179,6 +183,10 @@ return [
                 ],
                 'caption' => [
                     'type' => 'string'
+                ],
+                'alt' => [
+                    'type' => 'string',
+                    'required' => false
                 ],
                 'withBorder' => [
                     'type' => 'boolean'

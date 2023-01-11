@@ -106,7 +106,8 @@ class NovaEditorJsConverter
         $this->addRender(
             'image',
             fn ($block) => view('nova-editor-js::image', array_merge($block['data'], [
-                'classes' => $this->calculateImageClasses($block['data'])
+                'classes' => $this->calculateImageClasses($block['data']),
+                'alt' => $block['alt'] ?? '',
             ]))->render()
         );
 
