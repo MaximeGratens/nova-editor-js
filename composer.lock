@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6e73f15d6abc27c210b12ce018c5a507",
+    "content-hash": "cacf2d049230f55ff525e2965b464c0a",
     "packages": [
         {
             "name": "brick/math",
@@ -122,16 +122,16 @@
         },
         {
             "name": "desti/editor.js",
-            "version": "v1.0",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MaximeGratens/editorjs-php.git",
-                "reference": "ed5897d274fad89b2f21449be69490dfef62e3e1"
+                "reference": "63a4c76ba0c693d63d3f849a714d1493b2962cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MaximeGratens/editorjs-php/zipball/ed5897d274fad89b2f21449be69490dfef62e3e1",
-                "reference": "ed5897d274fad89b2f21449be69490dfef62e3e1",
+                "url": "https://api.github.com/repos/MaximeGratens/editorjs-php/zipball/63a4c76ba0c693d63d3f849a714d1493b2962cdb",
+                "reference": "63a4c76ba0c693d63d3f849a714d1493b2962cdb",
                 "shasum": ""
             },
             "require": {
@@ -160,9 +160,9 @@
             ],
             "description": "PHP backend implementation for the Editor.js",
             "support": {
-                "source": "https://github.com/MaximeGratens/editorjs-php/tree/v1.0"
+                "source": "https://github.com/MaximeGratens/editorjs-php/tree/v1.1"
             },
-            "time": "2023-01-11T11:48:58+00:00"
+            "time": "2023-01-11T12:00:29+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
